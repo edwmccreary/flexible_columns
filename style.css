@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    height: 70px;
+}
+
+.col, .col-2, .col-3 {
+    background-color:cadetblue;
+    margin: 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family:fantasy;
+    
+}
+
+.col {
+    flex: 1;
+    
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
